@@ -22,14 +22,15 @@ export default function HomePage() {
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-6xl font-extrabold leading-tight mb-6">
-            Premium Software
+            Affordable Microsoft Office & Software
             <br />
             <span className="bg-gradient-to-r from-blue-400 via-violet-400 to-cyan-400 bg-clip-text text-transparent">
-              at Unbeatable Prices
+              Instant Delivery in Minutes
             </span>
           </h1>
           <p className="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto mb-10">
-            Genuine license keys for Microsoft, Autodesk & more. Delivered to your inbox in minutes.
+            Official Microsoft Office & Windows keys.
+Fast email delivery after payment.
           </p>
 
           {/* CTA Buttons */}
@@ -38,7 +39,7 @@ export default function HomePage() {
               href="/products"
               className="px-8 py-3.5 rounded-xl font-semibold bg-gradient-to-r from-blue-600 to-violet-600 hover:from-blue-500 hover:to-violet-500 text-white transition-all shadow-lg shadow-blue-900/40"
             >
-              Browse All Products →
+              View Products →
             </Link>
             <Link
               href="/contact"
@@ -83,10 +84,10 @@ export default function HomePage() {
       {/* ── WHY US SECTION ── */}
       <section className="border-t border-gray-800 bg-gray-900/30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <h2 className="text-2xl font-bold text-center mb-10">Why Choose SoftwareHub?</h2>
+          <h2 className="text-2xl font-bold text-center mb-10">Why Choose Our Store?</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { icon: "⚡", title: "Instant Delivery", desc: "Get your license key via email within minutes of purchase." },
+              { icon: "⚡", title: "Instant Delivery", desc: "Receive your activation key instantly after payment of purchase." },
               { icon: "🔒", title: "100% Secure", desc: "All payments are encrypted. We never store card details." },
               { icon: "✅", title: "Genuine Licenses", desc: "Every key is sourced directly from official vendors." },
               { icon: "💬", title: "24/7 Support", desc: "Our team is always available to help you activate your software." },
@@ -103,3 +104,4 @@ export default function HomePage() {
     </>
   );
 }
+Update homepage content
