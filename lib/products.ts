@@ -52,3 +52,6 @@ export const products: Product[] = [
     icon: "📐"
   }
 ];
+export function getProductById(id: string): Product | undefined {
+  return products.find((product) => product.id === id);
+}
